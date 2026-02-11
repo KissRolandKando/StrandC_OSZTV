@@ -35,7 +35,10 @@ namespace StrandC_OSZTV
         private static void Feladat_9()
         {
             string leghidegebb = furdok.FirstOrDefault(f => f.VizHofok == furdok.Min(x => x.VizHofok)).Nev;
+            var leg = furdok.MinBy(x => x.VizHofok);
+            
             Console.WriteLine($"9. feladat:\nA leghidegebb víz a(a) {leghidegebb} nevü fürdőben van.");
+            Console.WriteLine(leg.Nev);
         }
 
         private static void Feladat_8()
