@@ -1,6 +1,6 @@
 ﻿Név;Cím;Ár;Vízhőfok
 Gyulai Várfürdő;5700 Gyula, Várfürdő u. 1.;6000;36
-Harkányi Gyógyfürdő;7815 Harkány, Járó József u. 1.;7100;38
+Harkányi Gyógyfürdő;a;7100;38
 Zalakarosi Fürdő;8749 Zalakaros, Thermál u. 4.;6300;40
 Sárvári Gyógy- és Wellnessfürdő;9600 Sárvár, Rákóczi u. 1.;6300;34
 Bükfürdő;9740 Bük, Termál tér 1.;6300;39

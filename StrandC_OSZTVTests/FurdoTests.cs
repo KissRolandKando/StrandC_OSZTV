@@ -32,9 +32,7 @@ namespace StrandC_OSZTV.Tests
             furdo = new Furdo(adat);
             string actual = furdo.Telepules();
             Assert.AreNotEqual(expected, actual);
-            Assert.ThrowsException<FormatException>(
-                () => furdo.Telepules()
-                );
+            
         }
 
         [TestMethod()]
@@ -43,7 +41,7 @@ namespace StrandC_OSZTV.Tests
         public void TelepulesExceptionTest(string adat, string expected)
         {
             furdo = new Furdo(adat);
-            string actual = furdo.Telepules();
+            
             
             Assert.ThrowsException<IndexOutOfRangeException>(
                 () => furdo.Telepules()

@@ -34,7 +34,10 @@ namespace StrandC_OSZTV
         }
         public string Telepules()
         {
-            return Cim.Split(' ')[1].TrimEnd(',');
+            
+                return Cim.Split(' ')[1].TrimEnd(',');
+            
+            
         }
     }
 }
